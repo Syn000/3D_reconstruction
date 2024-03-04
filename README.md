@@ -24,7 +24,7 @@ Used Blender to create and project a UV image to apply texture to the mesh.
 
 The texture image is downloaded via: https://ambientcg.com/.
 
-The generated textured mesh sample can be downloaded via the following link:.
+The generated textured mesh sample can be downloaded via the following link: https://drive.google.com/file/d/1uIOqrruxm1cfpXJ5rEbj9gxrruUwu3wT/view?usp=sharing.
 
 # Reference
 https://arxiv.org/pdf/2001.05119.pdf
