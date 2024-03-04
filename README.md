@@ -10,7 +10,7 @@ https://rgbd-dataset.cs.washington.edu/dataset/rgbd-scenes
 # Point cloud
 For each RGBD image, use open3d to generate a point cloud. And then use SIFT, BFMatcher, ICP to register the generated point clouds, and then merge the registerd point clouds to create one point cloud.
 
-The generated point clouds for 8 scenes can be downloaded via the following link: .
+The generated point clouds for 8 scenes can be downloaded via the following link: https://drive.google.com/file/d/1s8dhvDcCzLFQO6RoA68QyPXaIJee888v/view?usp=sharing.
 
 # Mesh
 Provide 2 methods to generate a mesh from a point cloud: Poisson and Ball pivoting.
