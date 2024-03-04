@@ -20,7 +20,7 @@ The meshs can be downloaded via the following link: https://drive.google.com/fil
 # Textured mesh
 Used Blender to create and project a UV image to apply texture to the mesh.
 
-The texture image is downloaded via:https://ambientcg.com/.
+The texture image is downloaded via: https://ambientcg.com/.
 
 The textured mesh can be downloaded via the following link:.
 
