@@ -17,7 +17,7 @@ Provide 2 methods to generate a mesh from a point cloud: Poisson and Ball pivoti
 
 The meshs can be downloaded via the following link: https://drive.google.com/file/d/1gbo2Ps-L7hlG7IH8emO-dlMxAOqai2nm/view?usp=sharing.
 
-![image](https://drive.google.com/file/d/17hStycjO-dvg6jufSw45IgiACRYeRdII/view?usp=sharing)
+![image](https://github.com/Syn000/3D_reconstruction/blob/main/Pros_Cons.png)
 
 # Textured mesh
 Used Blender to create and project a UV image to apply texture to the mesh.
