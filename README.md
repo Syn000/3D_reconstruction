@@ -4,6 +4,8 @@ This project is a PyTorch implementation of 3D RECONSTRUCTION CODING CHALLENGE.
 # Dataset
 https://rgbd-dataset.cs.washington.edu/dataset/rgbd-scenes
 
+Due to constraints on time and CPU processing power, I chose to use a subset of the available dataset for my experiments. Each subset consists of sequences of 45 RGB images and their matching depth images from each scene.
+
 # Run 
 ```python "rgbd_mesh(multi_view).py" <PATH_TO_YOUR_DATA>```
 
