@@ -200,10 +200,10 @@ def pose_estimation(folder_path):
     return merged_pcd
 
 def point_cloud_to_mesh_poisson(folder_path):
-    # merged_pcd = pose_estimation(folder_path)
-    last_part = os.path.basename(folder_path)
-    file_path = f"/Users/yining/Sem1/MP/pythonProject/point_cloud/point_{last_part}.ply"
-    merged_pcd = o3d.io.read_point_cloud(file_path)
+    merged_pcd = pose_estimation(folder_path)
+    # file_path = f"/Users/yining/Sem1/MP/pythonProject/point_cloud/point_{last_part}.ply"
+    # merged_pcd = o3d.io.read_point_cloud(file_path)
+    
     merged_pcd.estimate_normals(search_param=o3d.geometry.KDTreeSearchParamHybrid(radius=0.05, max_nn=50))
     # Apply Poisson Surface Reconstruction
     mesh, densities = o3d.geometry.TriangleMesh.create_from_point_cloud_poisson(merged_pcd, depth=6)
@@ -215,11 +215,9 @@ def point_cloud_to_mesh_poisson(folder_path):
 
 def point_cloud_to_ball_pivoting(folder_path, radii=[0.0025, 0.005, 0.01, 0.02]):
     # Estimate normals
-    # merged_pcd = pose_estimation(folder_path)
-
-    last_part = os.path.basename(folder_path)
-    file_path = f"/Users/yining/Sem1/MP/pythonProject/point_cloud/point_{last_part}.ply"
-    merged_pcd = o3d.io.read_point_cloud(file_path)
+    merged_pcd = pose_estimation(folder_path)
+    # file_path = f"/Users/yining/Sem1/MP/pythonProject/point_cloud/point_{last_part}.ply"
+    # merged_pcd = o3d.io.read_point_cloud(file_path)
 
     merged_pcd.estimate_normals(search_param=o3d.geometry.KDTreeSearchParamHybrid(radius=0.05, max_nn=50))
 
