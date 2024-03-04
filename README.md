@@ -15,11 +15,16 @@ The generated point clouds for 8 scenes can be downloaded via the following link
 # Mesh
 Provide 2 methods to generate a mesh from a point cloud: Poisson and Ball pivoting.
 
-The meshs can be downloaded via the following link:.
+The meshs can be downloaded via the following link: https://drive.google.com/file/d/1gbo2Ps-L7hlG7IH8emO-dlMxAOqai2nm/view?usp=sharing.
 
 # Textured mesh
 Used Blender to create and project a UV image to apply texture to the mesh.
 
-The texture image is downloaded via:.
+The texture image is downloaded via:https://ambientcg.com/.
 
 The textured mesh can be downloaded via the following link:.
+
+# Reference
+https://arxiv.org/pdf/2001.05119.pdf
+https://github.com/PHANTOM0122/3D_Object_Reconstruction/tree/main?tab=readme-ov-file
+https://github.com/dazinovic/neural-rgbd-surface-reconstruction/tree/main
