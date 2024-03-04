@@ -8,9 +8,7 @@ https://rgbd-dataset.cs.washington.edu/dataset/rgbd-scenes
 python "rgbd_mesh(multi_view).py" <PATH_TO_YOUR_DATA>
 
 # Point cloud
-For each RGBD image, use open3d to generate a point cloud.
-
-And then use SIFT, BFMatcher, ICP to register the generated point clouds, and then merge the registerd point clouds to create one point cloud.
+For each RGBD image, use open3d to generate a point cloud. And then use SIFT, BFMatcher, ICP to register the generated point clouds, and then merge the registerd point clouds to create one point cloud.
 
 The generated point clouds for 8 scenes can be downloaded via the following link:.
 
