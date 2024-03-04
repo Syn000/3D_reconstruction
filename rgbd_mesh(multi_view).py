@@ -209,7 +209,7 @@ def point_cloud_to_mesh_poisson(folder_path):
     mesh, densities = o3d.geometry.TriangleMesh.create_from_point_cloud_poisson(merged_pcd, depth=6)
 
     last_part = os.path.basename(folder_path)
-    o3d.io.write_triangle_mesh(f"/Users/yining/Sem1/MP/pythonProject/mesh/mesh_poison_{last_part}.obj", mesh)
+    o3d.io.write_triangle_mesh(f"/Users/yining/Sem1/MP/pythonProject/mesh/mesh_poisson_{last_part}.obj", mesh)
     print(f"Finish Processing mesh")
 
 
