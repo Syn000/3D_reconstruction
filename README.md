@@ -5,7 +5,7 @@ This project is a PyTorch implementation of 3D RECONSTRUCTION CODING CHALLENGE.
 https://rgbd-dataset.cs.washington.edu/dataset/rgbd-scenes
 
 # Run 
-python "rgbd_mesh(multi_view).py" <PATH_TO_YOUR_DATA>
+```python "rgbd_mesh(multi_view).py" <PATH_TO_YOUR_DATA>```
 
 # Point cloud
 For each RGBD image, use open3d to generate a point cloud. And then use SIFT, BFMatcher, ICP to register the generated point clouds, and then merge the registerd point clouds to create one point cloud.
@@ -26,5 +26,7 @@ The textured mesh can be downloaded via the following link:.
 
 # Reference
 https://arxiv.org/pdf/2001.05119.pdf
+
 https://github.com/PHANTOM0122/3D_Object_Reconstruction/tree/main?tab=readme-ov-file
+
 https://github.com/dazinovic/neural-rgbd-surface-reconstruction/tree/main
