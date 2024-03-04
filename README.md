@@ -4,6 +4,9 @@ This project is a PyTorch implementation of 3D RECONSTRUCTION CODING CHALLENGE.
 # Dataset
 https://rgbd-dataset.cs.washington.edu/dataset/rgbd-scenes
 
+# Run 
+python "rgbd_mesh(multi_view).py" <PATH_TO_YOUR_DATA>
+
 # Point cloud
 For each RGBD image, use open3d to generate a point cloud.
 
